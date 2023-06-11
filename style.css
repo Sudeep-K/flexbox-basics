@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container {
+    background-color: #6f7f8f;
+    padding: 8px;
+
+    width: 90vw;
+    min-height: 40vh;
+    /* min-height: 70vh; */
+}
+
+.box {
+    background-color: #e4e3e1;
+    width: 200px;
+    height: 150px;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 54px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* flex-direction */
+.container {
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+/* flex-wrap */
+.container {
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+}
+
+/* justify content */
+.container {
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+
+/* align items */
+.container {
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+}
+
+/* align content */
+.container {
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+}
+
+/* flex order */
+.box:nth-child(1) {
+    /* order: 3; */
+}
+
+/* flex grow */
+.box:nth-child(1), .box:nth-child(2) {
+    /* flex-grow: 1;  */
+}
+
+.box:nth-child(3) {
+    /* flex-grow: 2; */
+}
+
+/* flex shrink */
+.box:nth-child(1) {
+    /* flex-shrink: 1; */
+}
+
+/* flex basis */
+.box:nth-child(1) {
+    /* flex-basis: 300px; */
+}
